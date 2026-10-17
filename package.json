@@ -1,0 +1,23 @@
+{
+  "name": "shipnow-back-end-iii",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Preentrega Módulo 2: Mocking y carga de datos por capas",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+     },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
